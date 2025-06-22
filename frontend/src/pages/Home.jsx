@@ -1,5 +1,5 @@
 import React from 'react'
-import Feed from "../pages/Feed"
+import Feed from "./Feed"
 function Home() {
   return (
     <>

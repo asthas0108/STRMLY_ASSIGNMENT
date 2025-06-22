@@ -10,7 +10,7 @@ export default function UploadVideo() {
     fd.append("title", form.title);
     fd.append("description", form.description);
     fd.append("file", form.file);
-    await axios.post("http://localhost:5000/api/upload", fd, {
+    await axios.post("https://strmly-assignment.onrender.com/api/upload", fd, {
       withCredentials: true,
       // headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
     });
